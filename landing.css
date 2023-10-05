@@ -11,16 +11,24 @@ body, h1, h2, p {
     margin-left:5%;
 }
 
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+}
+
 /* Style the page title */
 .page-title h2 {
-    font-size: 24px;
+    font-size: 35px;
     color: #333;
     margin-top: 20px;
 }
 
 /* Style the cards */
 .card-short {
-    display: ;
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -30,6 +38,8 @@ body, h1, h2, p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .card-long {
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -49,7 +59,10 @@ body, h1, h2, p {
     font-size: 16px;
     color: #777;
 }
-
+.card-sentence{
+    width: 300px;
+    disp
+}
 /* display: flex;
 flex-wrap: wrap;
 height: 100vh;
