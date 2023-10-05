@@ -1,0 +1,60 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the container */
+.container {
+    display: grid;
+    place-items: centre;
+    height: 100vh;
+    margin-left:5%;
+}
+
+/* Style the page title */
+.page-title h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Style the cards */
+.card-short {
+    display: ;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-long {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* display: flex;
+flex-wrap: wrap;
+height: 100vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #f7f7f7;
+padding: 40px 0; */
